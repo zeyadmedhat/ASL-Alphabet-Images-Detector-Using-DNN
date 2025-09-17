@@ -37,6 +37,37 @@ The model is designed for high validation accuracy and low validation loss, usin
 
 ---
 
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/zeyadmedhat/ASL-Alphabet-Images-Detector-Using-DNN.git
+   cd ASL-Alphabet-Images-Detector-Using-DNN
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset/data) and place it in the `dataset/` folder.
+
+4. Train the model:
+
+   ```bash
+   python src/train.py
+   ```
+
+5. Evaluate the model:
+
+   ```bash
+   python src/evaluate.py
+   ```
+
+---
+
 ## 📌 Future Improvements
 
 * 📷 Add **real-time hand gesture recognition** with webcam
